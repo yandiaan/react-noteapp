@@ -1,0 +1,31 @@
+.section {
+  width: 85%;
+  margin: 50px auto;
+}
+
+.section h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.cardgroup {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 36px;
+  margin-top: 25px;
+}
+
+.null {
+  color: aliceblue;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+}
+
+[data-null="aktif"]::before {
+  content: "Catatan ";
+}
+[data-null="arsip"]::before {
+  content: "Arsip Catatan ";
+}

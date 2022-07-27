@@ -1,0 +1,52 @@
+.input {
+  color: aliceblue;
+  width: 450px;
+  margin: 25px auto;
+}
+.label {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.label h2 {
+  font-size: 2.2em;
+}
+
+.label p {
+  padding: 0px;
+  font-weight: 600;
+  font-size: 1.2em;
+  width: 100%;
+  text-align: right;
+  place-self: center;
+}
+
+.noteContent,
+.noteTitle {
+  background-color: darkslategrey;
+  color: whitesmoke;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 1px solid darkcyan;
+  width: 100%;
+  padding: 12px;
+}
+.noteContent {
+  resize: both;
+  height: 150px;
+}
+.input-control button {
+  width: 106%;
+  color: whitesmoke;
+  font-size: 1.5em;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: darkslategrey;
+  border: 1px solid darkcyan;
+  border-radius: 5px;
+}
+
+.input-control button:hover {
+  background-color: darkslateblue;
+}

@@ -1,0 +1,27 @@
+.card {
+  background-color: slategray;
+  max-width: 200px;
+  height: max-content;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
+.card h2 {
+  font-size: 2em;
+  margin-bottom: 12px;
+}
+
+.card small {
+  font-size: 1em;
+  color: azure;
+  display: block;
+  text-align: right;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-weight: 600;
+  font-size: 1.4em;
+}

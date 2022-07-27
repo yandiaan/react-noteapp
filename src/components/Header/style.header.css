@@ -1,0 +1,13 @@
+header {
+  border-bottom: 3px dotted goldenrod;
+  padding-bottom: 1.5em;
+  padding-top: 1em;
+}
+
+.title {
+  font-size: 3.5em;
+  text-align: center;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}

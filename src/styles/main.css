@@ -1,0 +1,15 @@
+@import "../components/Header/style.header.css";
+/* @import "../components/Header/style.button.css";
+@import "../components/Header/style.header.css"; */
+
+body {
+  background-color: darkslateblue;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+::placeholder {
+  color: lightgray;
+}
